@@ -1,0 +1,38 @@
+# R
+.Rproj.user/
+.Rproj.user
+*.Rproj
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+
+# R build artefacts
+*.Rcheck/
+*.tar.gz
+src/*.o
+src/*.so
+src/*.dll
+
+# Rendered documentation and caches
+docs/
+inst/doc/*.R
+inst/doc/*.Rout
+*.Rout
+knitr-cache/
+_cache/
+
+# renv / packrat
+renv/library/
+renv/local/
+renv/staging/
+packrat/lib*/
+packrat/src/
+
+# Editors and OS cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/*
+!.vscode/settings.json

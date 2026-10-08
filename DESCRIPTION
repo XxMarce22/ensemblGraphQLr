@@ -1,0 +1,31 @@
+Package: ensemblGraphQLr
+Title: Modern Ensembl Queries via the Ensembl GraphQL API
+Version: 0.0.0.9000
+Authors@R: 
+    person("Marcelo", "Santos", , "XxMarce22@users.noreply.github.com", role = c("aut", "cre"))
+Description: A modern, high-performance successor to the 'biomaRt' package that
+    retrieves Ensembl annotation through the Ensembl GraphQL API instead of the
+    legacy BioMart and REST engines. Exposes a 'getBM()'-style user interface
+    ('get_ensembl_data()') that maps biomaRt-style attribute and filter names
+    onto a GraphQL query, executes it, and returns a flattened tibble. Network
+    timeouts, dropped connections, server-side GraphQL errors and empty result
+    sets are handled defensively, with empty typed tibbles returned whenever a
+    query matches no records.
+License: MIT + file LICENSE
+URL: https://github.com/XxMarce22/ensemblGraphQLr
+BugReports: https://github.com/XxMarce22/ensemblGraphQLr/issues
+Depends:
+    R (>= 4.1.0)
+Imports:
+    ghql,
+    jsonlite,
+    rlang,
+    tibble
+Suggests:
+    testthat (>= 3.1.7),
+    withr
+Config/testthat/edition: 3
+biocViews: Software, Annotation
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.0
