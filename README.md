@@ -318,4 +318,4 @@ The suite makes no network calls unless `ENSEMBL_GRAPHQL_LIVE` is set.
 
 ## License
 
-MIT © Marcelo Santos. See [LICENSE.md](LICENSE.md).
+MIT © Marcelo Bertuol. See [LICENSE.md](LICENSE.md).
