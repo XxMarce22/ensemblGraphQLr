@@ -40,11 +40,22 @@ This package is **not affiliated with or endorsed by EMBL-EBI**.
 
 ## Installation
 
-Not on CRAN; install from GitHub:
+Not on CRAN.
+
+### Install from GitHub in R
+
+Run the following in an R session to install the package directly from this
+repository:
 
 ```r
 # install.packages("remotes")
 remotes::install_github("XxMarce22/ensemblGraphQLr")
+```
+
+Then load it:
+
+```r
+library(ensemblGraphQLr)
 ```
 
 Requires R >= 4.1.0. Dependencies: `ghql`, `jsonlite`, `tibble`, `rlang`.
